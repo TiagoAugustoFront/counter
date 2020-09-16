@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 100%;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  flex-direction: column;
+  background: #F9A620;
+}
+
+.counter{
+  color: #FFFAFF;
+  font-size: 5rem;
+  font-family: 'Orbitron', sans-serif;  
+}
+
+.btn-container{
+  width: 9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn{
+  padding: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+  border: solid 0.5px #5a5a5a;
+}
+
+.btn-container .btn{
+  width: 4rem;
+}
+
+.btn-reset{
+  width: 9rem;
+  align-self: flex-end;
+}
